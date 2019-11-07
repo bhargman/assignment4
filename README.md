@@ -1,11 +1,8 @@
-# CSCI 380-04: Assignment 4 - Due by 11:59 PM, Apr 17th, 2019
+# CSCI 380-01: Assignment 4 - Due by 11:59 PM, Dec 11th, 2019
 * * * 
 
 	 This assignment builds upon the concepts learned from assignment 3, 
-	 and will teach you how to make synchronous API calls through an AsyncTask.
-	 
-	 See Lecture 10 (https://bhargman.github.io/csci-380-04/docs/CSCI-380-04-Lecture-10.pdf) 
-	 slides to learn about the APIs needed for this assignment. 
+	 and will teach you how to make synchronous API calls through an AsyncTask. 
 
 # Part 0 - Github Setup - 5%
 + Setup this assignment the same way you did for your previous assignments (see [https://github.com/bhargman/assignment1#part-1---github-setup---5](https://github.com/bhargman/assignment1#part-1---github-setup---5). Name your repo
@@ -50,15 +47,13 @@ or if you try it in the API console and you get this:**
 
 # Part 4 - GetCategoriesTask - 35%
 + Open up `GetCategoriesTask`
-+ Update `doInBackground()` and `onPostExecute()` as described in their comments. See slide 8 in lecture 10 if you need
-a refresher on how to make synchronous calls with `Retrofit`.
++ Update `doInBackground()` and `onPostExecute()` as described in their comments.
 
 # Part 5 - PresentationCategoryViewHolder - 5%
 + Open up `PresentationCategoryViewHolder`
-+ Update the constructor to instantiate `imageView` and `textView`. See slide 18 in lecture 10 if you need a refresher
++ Update the constructor to instantiate `imageView` and `textView`.
 on how to instantiate views.
 
 # Part 6 - PresentationCategoryAdapter - 35%
 + Open up `PresentationCategoryAdapter`
-+ Update `onCreateViewHolder()`, `onBindViewHolder()`, and `getItemCount()` as described in the class' comment. See slide 18 in lecture 10 if you need a refresher
-on RecyclerView adapters.
++ Update `onCreateViewHolder()`, `onBindViewHolder()`, and `getItemCount()` as described in the class' comment. 

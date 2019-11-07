@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * This class allows us to adapt a {@link PresentationCategory} to a {@link PresentationCategoryViewHolder}.
- * Study slide 18 from lecture 10, and implement {@link this#onCreateViewHolder(ViewGroup, int)},
+ * Implement {@link this#onCreateViewHolder(ViewGroup, int)},
  * {@link this#onBindViewHolder(PresentationCategoryViewHolder, int)} and {@link this#getItemCount()}.
  *
  * Note: You can use {@link Glide} in order to load the image url into {@link PresentationCategoryViewHolder#imageView}.
